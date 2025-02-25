@@ -6,7 +6,7 @@ Repositorio para laboratorio y actividades practicas de Seguridad de la informac
 
 Este repositorio contiene materiales y guías para las cinco actividades prácticas del curso de Seguridad de la Información. Estas actividades están diseñadas para brindar experiencia práctica en diferentes áreas de la ciberseguridad, desde cifrado y esteganografía hasta escaneo de vulnerabilidades y explotación ética de sistemas.
 
-Cada directorio en este repositorio corresponde a una actividad específica con instrucciones detalladas, recursos necesarios y criterios de evaluación.
+Cada directorio en este repositorio corresponde a una actividad específica con instrucciones detalladas, recursos necesarios y criterios de evaluación (Estos seran evaluados por el profesor).
 
 ## 🛠️ Herramientas utilizadas
 
