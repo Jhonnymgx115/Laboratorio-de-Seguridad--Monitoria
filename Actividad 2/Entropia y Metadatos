@@ -1,1 +1,18 @@
+Para este laboratorio es necesario realizar una explicacion acerca de la esteganografia:
+La esteganografía es la práctica de ocultar información dentro de otro mensaje u objeto físico para evitar su detección. Se puede usar para ocultar casi cualquier tipo de contenido digital, ya sea texto, imágenes, videos o audios. Luego, dichos datos ocultos se extraen en destino.
+Fuente: https://latam.kaspersky.com/resource-center/definitions/what-is-steganography
 
+¿Por que es considerado un delito?
+El uso de esteganografía para infiltrar un programa malware se hace fraccionando un programa en bytes y desperdigando esos bytes dentro de los datos de la imagen. Las imágenes están representadas por píxeles, y cada píxel está definido por 24 bits. La forma más común de ocultar información en formato píxel consiste en manipular el bit menos relevante del píxel.
+Fuente: https://www.redseguridad.com/actualidad/esteganografia-lo-ultimo-en-ciberdelincuencia_20230306.html
+
+El laboratorio:
+Se necesita descargar el archivo zip en el repositorio de la actividad 2, al mismo tiempo es necesario descargar la aplicacion de steghide.
+
+Este es el repositorio para descargar tanto en linux como windows:
+https://github.com/StegHigh/steghide
+
+La guia funcionara para empezar a escanear y buscar el mensaje en imagenes, para obtener diferentes codigos alfanumericos (HASH) que pueden ser traducidos, y daran un mensaje que revelara una informacion unica.
+Pagina para decodificar: https://hashes.com/es/decrypt/hash
+
+Este Laboratorio necesita ser explicado en clase para un mayor entendimiento.
