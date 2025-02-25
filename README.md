@@ -48,4 +48,4 @@ Cada directorio en este repositorio corresponde a una actividad específica con 
   - Requiere software de virtualización como VirtualBox o VMware para ejecutarse
 ---
 
-© 2025 Curso de Seguridad de la Información
+Daniel Felipe Genta y Jorge Barreto.
