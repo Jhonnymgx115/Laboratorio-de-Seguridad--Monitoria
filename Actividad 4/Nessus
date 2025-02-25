@@ -1,67 +1,44 @@
-# Informe de Laboratorio: Análisis de Vulnerabilidades con Nessus
-
-## 🔍 Introducción
-
+INFORME DE LABORATORIO: ANÁLISIS DE VULNERABILIDADES CON NESSUS
+🔍 Introducción
 En el mundo de la ciberseguridad, detectar vulnerabilidades antes de que los atacantes las exploten es fundamental. Nessus, desarrollado por Tenable, es una de las herramientas más poderosas para la evaluación de seguridad en sistemas y redes. En este laboratorio, exploraremos cómo instalar y utilizar Nessus en Windows para realizar un escaneo de vulnerabilidades en un sistema operativo.
-
-## 🎯 Objetivos
-
+🎯 Objetivos
 * Comprender el concepto de análisis de vulnerabilidades.
 * Instalar y configurar Nessus en un entorno Windows.
 * Ejecutar un escaneo básico de vulnerabilidades en un sistema operativo.
 * Analizar los resultados obtenidos e identificar posibles riesgos de seguridad.
 * Explorar medidas para mitigar las vulnerabilidades detectadas.
-
-## 📚 Marco Teórico
-
-### 🔹 ¿Qué es un Análisis de Vulnerabilidades?
-
+📚 Marco Teórico
+🔹 ¿Qué es un Análisis de Vulnerabilidades?
 Un análisis de vulnerabilidades es un proceso que permite detectar fallos de seguridad en un sistema antes de que sean explotados. Se basa en la identificación de configuraciones inseguras, puertos abiertos, software desactualizado y otros puntos débiles.
-
-### 🔹 Nessus: Una Herramienta de Evaluación de Seguridad
-
+🔹 Nessus: Una Herramienta de Evaluación de Seguridad
 Nessus es una herramienta de escaneo de vulnerabilidades desarrollada por Tenable. Es utilizada por analistas de seguridad y administradores de TI para evaluar la seguridad de redes y sistemas. Algunas de sus características incluyen:
-
 * Detección de vulnerabilidades en software y sistemas operativos.
 * Identificación de configuraciones incorrectas.
 * Generación de informes detallados con recomendaciones de mitigación.
-
-### 🔹 Tipos de Escaneo en Nessus
-
-* **Escaneo de Red:** Analiza dispositivos conectados a una red.
-* **Escaneo de Sistema Operativo:** Busca vulnerabilidades en el SO y su software instalado.
-* **Escaneo de Cumplimiento:** Evalúa configuraciones según estándares de seguridad.
-
-## 🚀 Taller Práctico: Uso de Nessus
-
-### 🔹 Punto 1: Instalación de Nessus en Windows
-
+🔹 Tipos de Escaneo en Nessus
+* Escaneo de Red: Analiza dispositivos conectados a una red.
+* Escaneo de Sistema Operativo: Busca vulnerabilidades en el SO y su software instalado.
+* Escaneo de Cumplimiento: Evalúa configuraciones según estándares de seguridad.
+🚀 Taller Práctico: Uso de Nessus
+🔹 Punto 1: Instalación de Nessus en Windows
 1. Descarga Nessus desde el sitio oficial de Tenable: https://www.tenable.com/downloads/nessus.
 2. Ejecuta el instalador y sigue las instrucciones.
-3. Una vez instalado, accede a la interfaz web de Nessus en `https://localhost:8834/`.
+3. Una vez instalado, accede a la interfaz web de Nessus en https://localhost:8834/.
 4. Crea una cuenta y activa Nessus con la versión gratuita (Nessus Essentials) o de pago.
-
-### 🔹 Punto 2: Creación de un Escaneo de Sistema Operativo
-
+🔹 Punto 2: Creación de un Escaneo de Sistema Operativo
 1. Abre Nessus y selecciona "New Scan".
 2. Elige la opción "Basic Network Scan".
 3. Introduce la dirección IP del sistema objetivo.
 4. Configura las opciones avanzadas si lo deseas (por ejemplo, detección profunda de vulnerabilidades).
 5. Guarda y ejecuta el escaneo.
-
-### 🔹 Punto 3: Análisis de Resultados
-
+🔹 Punto 3: Análisis de Resultados
 1. Una vez finalizado el escaneo, accede a los resultados.
 2. Identifica las vulnerabilidades detectadas y revisa su criticidad.
 3. Observa las recomendaciones de mitigación proporcionadas por Nessus.
-
-### 🔹 Punto 4: Aplicación de Medidas de Seguridad
-
+🔹 Punto 4: Aplicación de Medidas de Seguridad
 1. Para cada vulnerabilidad detectada, verifica si hay actualizaciones disponibles.
 2. Configura reglas de firewall para proteger puertos abiertos innecesarios.
 3. Implementa parches de seguridad y revisa configuraciones de acceso.
-
-### 🔹 Punto 5: Generación de un Informe
-
+🔹 Punto 5: Generación de un Informe
 1. En Nessus, selecciona "Export" y genera un informe en formato PDF.
 2. Revisa la información del reporte e identifica acciones correctivas prioritarias.
